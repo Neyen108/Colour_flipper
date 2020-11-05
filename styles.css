@@ -201,7 +201,7 @@ main {
 .btn-hero {
   font-family: var(--ff-primary);
   text-transform: uppercase;
-  background: transparent;
+  background: var(--clr-black);
   color: rgba(256, 256, 256, 0.87);
   letter-spacing: var(--spacing);
   display: inline-block;
@@ -217,5 +217,5 @@ main {
 .btn-hero:hover {
   box-shadow: 0 1px 10px rgba(256, 256, 256, 0.38);
   color: var(--clr-white);
-  background: var(--clr-black);
+  background: #121212;
 }
